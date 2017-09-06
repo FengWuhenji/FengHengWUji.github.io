@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .one {
+            width: 174px;
+            height: 126px;
+            background: url('img(1)/fish.png');
+            animation: getMove 1s steps(12) infinite;
+        }
+        /* .one:hover {
+            transition: all 2s steps(11);
+            background-position-y: -1386px;
+        } */
+
+        @keyframes getMove {
+            from {}
+            to {
+                background-position-y: -1512px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="one"></div>
+</body>
+
+</html>
